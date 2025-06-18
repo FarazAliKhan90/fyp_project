@@ -1,0 +1,170 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.left-side,
+.right-side {
+  width: 45%;
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 90%;
+  max-width: 300px;
+  padding: 14px;
+  margin: 10px auto;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+}
+
+.input-field:focus {
+  border-color: #4CAF50;
+}
+
+.input-field::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 300px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.switch-page {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.switch-page a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.switch-page a:hover {
+  text-decoration: underline;
+}
+
+.office-logo {
+  width: 80%;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .signup-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .input-field,
+  button {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .office-logo {
+    max-width: 200px;
+  }
+}
+
+/* Custom dropdown styling */
+select.input-field {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%234CAF50" viewBox="0 0 24 24"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  width: 90%;
+  max-width: 300px;
+}
+
+select.input-field:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+@media (max-width: 480px) {
+  select.input-field {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

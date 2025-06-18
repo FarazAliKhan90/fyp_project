@@ -1,0 +1,85 @@
+/* Reset & General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full Background (Same soft background as card surroundings) */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+    background-color: #5E7381;
+
+}
+
+/* Card Styling */
+.card {
+  width: 460px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Header */
+.card-header {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Textarea */
+.card-body textarea {
+  width: 100%;
+  height: 160px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+.card-body textarea:focus {
+  border-color: #5E7381;
+  outline: none;
+}
+
+/* Footer */
+.card-footer {
+  margin-top: 20px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #5E7381;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-left:  30px;
+}
+
+.submit-btn:hover {
+  background: #4c5d6e;
+}

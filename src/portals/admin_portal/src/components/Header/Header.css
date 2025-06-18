@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+header {
+  height: 70px;
+  width: 100%;
+  background: #fff;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 1000;
+}
+
+header .logo {
+  width: 80px;
+}
+
+header .row {
+  margin: 0px !important;
+}
+
+header .txt {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+header button.rounded-circle {
+  min-width: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #f0f5ff;
+  color: #292929;
+  margin-right: 1rem !important;
+}
+
+header button.rounded-circle svg {
+  color: #292929;
+}
+
+.myAcc {
+  text-align: left !important;
+  color: #000 !important;
+  text-transform: capitalize !important;
+}
+
+.myAcc .userImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #0858f7;
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.myAcc .userImg .rounded-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.myAcc .userImg .rounded-circle img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.myAcc .userInfo {
+  padding-left: 10px;
+}
+
+.myAcc .userInfo h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #292929;
+}
+
+.myAcc .userInfo p {
+  margin-top: 0px;
+  font-size: 12px;
+  color: #000;
+  opacity: 0.7;
+}
+
+#account-menu li {
+  font-size: 14px !important;
+  padding: 12px 15px;
+}
+
+#account-menu li svg {
+  font-size: 20px !important;
+}

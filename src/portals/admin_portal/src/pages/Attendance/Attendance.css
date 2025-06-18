@@ -1,0 +1,80 @@
+.attendance-record-container {
+  padding: 30px;
+  background-color: #f9fcff;
+  min-height: 100vh;
+   margin-left: 250px;   /* adjust if your sidebar is wider/narrower */
+  width: calc(118% - 0PX);
+  box-sizing: border-box;
+  margin-top: 50PX;
+}
+
+.attendance-header h2 {
+  font-weight: bold;
+  color: #003366;
+}
+
+.attendance-header p {
+  color: #666;
+  margin-top: 5px;
+}
+
+.attendance-filter-section {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.attendance-filter-section input,
+.attendance-filter-section select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.attendance-table-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #003366;
+  color: white;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+.badge.present {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badge.absent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.badge.on-leave {
+  background-color: #fff3cd;
+  color: #856404;
+}

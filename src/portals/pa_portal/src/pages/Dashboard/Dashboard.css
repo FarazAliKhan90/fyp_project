@@ -1,0 +1,23 @@
+
+
+.appointBox {
+  background: linear-gradient(to bottom right, #C7D3DD, #5E7381, #2A3D4F); /* Misty Gray, Muted Blue, Deep Charcoal */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.appointBox:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+
+}
+
+.appointBox span {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 45px;
+  
+}

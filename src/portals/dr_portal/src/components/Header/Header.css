@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #ebe9e9 !important;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+header .logo {
+  width: 80px;
+}
+
+header .row {
+  margin: 0 !important;
+}
+
+header .txt {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.myAcc {
+  text-align: left !important;
+  color: #000 !important;
+  text-transform: capitalize !important;
+}
+
+.myAcc .userImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #0858f7;
+  padding: 2px;
+  border-radius: 100%;
+}
+
+.myAcc .userImg .rounded-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.myAcc .userImg .rounded-circle img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.myAcc .userInfo {
+  padding-left: 10px;
+}
+
+.myAcc .userInfo h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #292929;
+}
+
+.myAcc .userInfo p {
+  margin-top: 0;
+  font-size: 12px;
+  color: #000;
+  opacity: 0.7;
+}
+
+#account-menu li {
+  font-size: 14px !important;
+  padding: 12px 15px;
+}
+
+#account-menu li svg {
+  font-size: 20px !important;
+}

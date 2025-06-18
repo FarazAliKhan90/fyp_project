@@ -1,0 +1,70 @@
+/* Reset & General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Centering the Card */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+}
+
+/* Card Styling (Increased Size) */
+.card {
+  width: 450px; /* Increased width */
+  padding: 25px; /* Increased padding */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Alert Heading (Moved to Left) */
+.card-header {
+  text-align: left; /* Moved text to the left */
+}
+
+.card-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Text Area (Made Bigger) */
+.card-body textarea {
+  width: 100%;
+  height: 150px; /* Increased height */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+}
+
+/* Submit Button Styling */
+.card-footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}

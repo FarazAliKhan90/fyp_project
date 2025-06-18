@@ -1,0 +1,59 @@
+/* ========== Sidebar ========== */
+.main .sidebarwrapper {
+  width: 20%;
+  flex: 0 0 20%;
+  transition: all 0.3s ease-in-out;
+}
+
+.main .sidebarwrapper .sidebar {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  background: #fff;
+}
+
+.main .sidebarwrapper .sidebar ul {
+  margin-bottom: 0px;
+}
+
+.main .sidebarwrapper .sidebar ul li {
+  list-style: none;
+}
+
+.main .sidebarwrapper .sidebar ul li button {
+  color: #000;
+  text-align: left;
+  justify-content: left;
+  border-radius: 0px;
+  padding: 12px 15px;
+  align-items: center;
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.main .sidebarwrapper .sidebar ul li button .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.main .sidebarwrapper .sidebar ul li button .icon svg {
+  color: #000;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.main .sidebarwrapper .sidebar ul li button .arrow {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
