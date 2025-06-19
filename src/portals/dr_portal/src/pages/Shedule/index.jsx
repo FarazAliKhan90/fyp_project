@@ -1,7 +1,5 @@
-
-
-
 import React, { useState } from 'react';
+import './Shedule.css';
 
 const PrescriptionForm = () => {
     const [formData, setFormData] = useState({
@@ -39,36 +37,36 @@ const PrescriptionForm = () => {
     };
     
     return (
-        <section className="prescription-section">
-            <form className="prescription-form" onSubmit={handleSubmit}>
-                <h2 className="form-title">Prescription & Management</h2>
-                <div className="input-wrapper">
-                    <label>Patient ho bahi  ID</label>
-                    <input type="text" name="patientId" className="input-field" value={formData.patientId} onChange={handleChange} required />
+        <section className="prescription-container">
+            <form className="prescription-box" onSubmit={handleSubmit}>
+                <h2 className="prescription-heading">Prescription & Management</h2>
+                <div className="prescription-field">
+                    <label>Patient ID</label>
+                    <input type="text" name="patientId" className="prescription-input" value={formData.patientId} onChange={handleChange} required />
                 </div>
-                <div className="input-group">
-                    <div className="input-wrapper">
+                <div className="prescription-row">
+                    <div className="prescription-field">
                         <label>Patient Name</label>
-                        <input type="text" name="patientName" className="input-field" value={formData.patientName} onChange={handleChange} required />
+                        <input type="text" name="patientName" className="prescription-input" value={formData.patientName} onChange={handleChange} required />
                     </div>
-                    <div className="input-wrapper">
+                    <div className="prescription-field">
                         <label>Doctor Name</label>
-                        <input type="text" name="doctorName" className="input-field" value={formData.doctorName} onChange={handleChange} required />
+                        <input type="text" name="doctorName" className="prescription-input" value={formData.doctorName} onChange={handleChange} required />
                     </div>
                 </div>
-                <div className="input-wrapper">
+                <div className="prescription-field">
                     <label>Diagnosis</label>
-                    <input type="text" name="diagnosis" className="input-field" value={formData.diagnosis} onChange={handleChange} required />
+                    <input type="text" name="diagnosis" className="prescription-input" value={formData.diagnosis} onChange={handleChange} required />
                 </div>
-                <div className="input-wrapper">
+                <div className="prescription-field">
                     <label>Prescription</label>
-                    <textarea name="prescription" className="review-box" value={formData.prescription} onChange={handleChange} required></textarea>
+                    <textarea name="prescription" className="prescription-textarea" value={formData.prescription} onChange={handleChange} required></textarea>
                 </div>
-                <div className="input-wrapper">
+                <div className="prescription-field">
                     <label>Additional Notes</label>
-                    <textarea name="additionalNotes" className="review-box" value={formData.additionalNotes} onChange={handleChange}></textarea>
+                    <textarea name="additionalNotes" className="prescription-textarea" value={formData.additionalNotes} onChange={handleChange}></textarea>
                 </div>
-                <button type="submit" className="submit-button">Submit</button>
+                <button type="submit" className="prescription-button">Submit</button>
             </form>
         </section>
     );

@@ -13,7 +13,7 @@ const dummyPatients = [
   { name: "Usman Farooq", id: "P009", doctor: "Dr. Zainab", reason: "Injury", status: "pending" },
   { name: "Sana Abbas", id: "P010", doctor: "Dr. Nasir", reason: "Hypertension", status: "pending" },
   { name: "Rizwan Iqbal", id: "P011", doctor: "Dr. Adeel", reason: "Stomach Pain", status: "pending" },
-  { name: "Kiran Javed", id: "P012", doctor: "Dr. Sameer", reason: "Eye Infection", status: "pending" },
+  { name: "Kiran Javed", id: "P012", doctor: "Dr. Sameer", reason: "Eye Infection", status: "pending" }, 
 ];
 
 const WaitingList = () => {

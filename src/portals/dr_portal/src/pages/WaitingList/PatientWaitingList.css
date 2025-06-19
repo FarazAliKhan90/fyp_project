@@ -6,6 +6,7 @@
     max-width: 95%;
     margin: auto;
     text-align: center;
+    margin-top: 200px;
   }
   
   .title {
@@ -19,16 +20,13 @@
     margin-top:  60px;
   }
   
-  .table-container {
-    overflow-x: auto;
-  }
+ 
   
   .waiting-list-table {
     width: 100%;
     border-collapse: collapse;
     background: white;
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
   }
   

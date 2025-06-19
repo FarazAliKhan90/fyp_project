@@ -8,7 +8,7 @@ const StaffRecord = () => {
 
   useEffect(() => {
     const storedStaff = JSON.parse(localStorage.getItem("enrolledStaff")) || [];
-    setStaffList(storedStaff);
+    setStaffList(storedStaff); 
   }, []);
 
   const filteredStaff = staffList.filter((staff) => {

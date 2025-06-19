@@ -12,6 +12,7 @@ const TaskManager = ({ addAlertMessage }) => {
   };
 
   return (
+    
     <div className="container">
       <div className="card">
         <div className="card-header">
