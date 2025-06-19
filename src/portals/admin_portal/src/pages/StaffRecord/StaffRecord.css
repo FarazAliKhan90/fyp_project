@@ -3,10 +3,10 @@
   background-color: #f4f6f9;
   min-height: 100vh;
   font-family: "Segoe UI", sans-serif;
-   margin-left: 235px;   /* adjust if your sidebar is wider/narrower */
-  width: calc(95% - 0PX);
+   margin-left: 40px;   /* adjust if your sidebar is wider/narrower */
+  width: calc(90% - 0PX);
   box-sizing: border-box;
-  margin-top: 50PX;
+  margin-top: 100PX;
 }
 
 .staff-header h2 {
@@ -20,6 +20,10 @@
   color: #6c757d;
   margin-bottom: 25px;
 }
+html, body {
+  overflow-y: hidden;  /* ✅ Vertical scroll hata diya */
+}
+
 
 .staff-table-container {
   overflow-x: auto;

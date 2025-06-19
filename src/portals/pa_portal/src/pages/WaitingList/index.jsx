@@ -18,11 +18,26 @@ const dummyPatients = [
 
 const WaitingList = () => {
   return (
-    <div className="waiting-list-container">
-      <h2 className="title">Patient Waiting List</h2>
+    <div style={{backgroundColor:"white"}}>
+    <div className="waiting-list-container" style={{backgroundColor:"#black", }}>
+      <h2
+        style={{
+          fontSize: "2rem",
+          fontWeight: "bold",
+          background: "linear-gradient(135deg, #2d89ff, #28c76f)",
+          color: "white",
+          padding: "14px 20px",
+          borderRadius: "30px",
+          marginBottom: "20px",
+          marginTop: "240px",  // ✅ upar se margin diya inline
+          display: "inline-block",
+        }}
+      >
+        Patient Waiting List
+      </h2>
 
-      <div className="table-container">
-        <table className="waiting-list-table">
+      <div className="table-container" style={{width:"1000px", marginLeft:"60px" ,}}>
+        <table className="waiting-list-table" >
           <thead>
             <tr>
               <th>Patient Name</th>
@@ -60,6 +75,7 @@ const WaitingList = () => {
           </tbody>
         </table>
       </div>
+    </div>
     </div>
   );
 };

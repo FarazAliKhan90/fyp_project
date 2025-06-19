@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background-color: #f2f7ff;
+  background-color: #e8e6e6;
 
   /* Correct margin and width */
-  margin-left: 250px;  /* Sidebar width — adjust if needed */
-  width: calc(200% - 250px);
+  margin-left: -130px;  /* Sidebar width — adjust if needed */
+  width: calc(200% - 240px);
   box-sizing: border-box;
   margin-top: 50px;
 }

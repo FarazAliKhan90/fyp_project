@@ -1,85 +1,93 @@
 .task-assignment-wrapper {
-    padding: 30px;
-    background-color: #f9fcff;
-    min-height: 100vh;
-     margin-left: 250px;   /* adjust if your sidebar is wider/narrower */
-  width: calc(140% - 0PX);
-  box-sizing: border-box;
-  margin-top: 50PX;
-  }
-  
-  .task-assignment-wrapper h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #003366;
-  }
-  
-  .task-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .form-group {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group label {
-    font-weight: 600;
-    margin-bottom: 6px;
-    color: #333;
-  }
-  
-  .form-group input, .form-group select {
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-  }
-  
-  .assign-btn {
-    grid-column: span 2;
-    padding: 12px;
-    background-color: #003366;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .task-table-section h3 {
-    margin-bottom: 15px;
-  }
-  
-  .task-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 1px 10px rgba(0,0,0,0.05);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .task-table th, .task-table td {
-    padding: 14px;
-    border-bottom: 1px solid #eee;
-    text-align: left;
-  }
-  
-  .task-table th {
-    background-color: #003366;
-    color: white;
-  }
-  
-  .no-tasks {
-    color: #666;
-    font-style: italic;
-  }
-  
+  padding: 100px;
+  background-color: #f9fcff;
+  min-height: 100vh;
+  margin-left: 10px;  /* ✅ Left space hata diya */
+  width: 92.5%;     /* ✅ Puri screen ka width use ho */
+  box-sizing:border-box;
+  margin-top: 10px; /* Heading thoda neeche aaye */
+  overflow-y: auto; /* Right side scroll jab task zyada ho */
+  max-height: 100vh; /* Screen ke andar rahe scroll */
+}
+
+.task-assignment-wrapper h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.task-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+  width: 800px; /* ✅ Full width form */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input, 
+.form-group select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.assign-btn {
+  grid-column: span 2;
+  padding: 12px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-table-section {
+  width: 100%; /* ✅ Table bhi puri screen ka use kare */
+}
+
+.task-table-section h3 {
+  margin-bottom: 15px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-table th, 
+.task-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #003366;
+  color: white;
+}
+
+.no-tasks {
+  color: #666;
+  font-style: italic;
+}
