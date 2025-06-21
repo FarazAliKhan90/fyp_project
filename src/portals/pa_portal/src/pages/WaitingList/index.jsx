@@ -18,7 +18,7 @@ const dummyPatients = [
 
 const WaitingList = () => {
   return (
-    <div style={{backgroundColor:"white"}}>
+    <div style={{backgroundColor:"white" , marginBottom:'200px'}}>
     <div className="waiting-list-container" style={{backgroundColor:"#black", }}>
       <h2
         style={{

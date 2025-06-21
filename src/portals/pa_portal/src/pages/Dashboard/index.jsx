@@ -3,7 +3,7 @@ import Patientgraph from "../../components/Graph/Patientgraph.jsx";
 const Dashboard = ({ alertMessages }) => {  
   return (
     <div className="right-content w-100">
-      <div className="row dashboardBoxWrapperRow">
+      <div className="row dashboardBoxWrapperRow" style={{marginTop:'320px'}}>
         <div className="col-md-6">
           <div className="box appointBoxx" 
             style={{ height: "250px", backgroundColor: "burlywood", borderRadius: "10px", padding: "20px", boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)", overflowY: "auto" }}>

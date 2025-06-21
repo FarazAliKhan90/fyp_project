@@ -13,7 +13,7 @@ const Dashboard = ({ alertMessages }) => {
   }, []);
 
   return (
-    <div className="right-content">
+    <div className="right-content" style={{marginTop:'500px'}}>
       <div className="time-date-bar">
         🕒 {currentTime.toLocaleTimeString()} | 📅 {currentTime.toLocaleDateString()}
       </div>
